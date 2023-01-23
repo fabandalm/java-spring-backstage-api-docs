@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+  kind: API
+  metadata:
+    name: "spring-boot-rest-api"
+    description: "Maintain contact list"
+    annotations:
+      github.com/project-slug: "fabandalm/spring-boot-rest-api"
+  spec:
+    type: openapi
+    lifecycle: unknown
+    owner: "unknown"
+    definition:
+      $text: ./swagger.json
