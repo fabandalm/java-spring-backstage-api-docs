@@ -6,7 +6,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: "fabandalm/spring-boot-rest-api"
 spec:
-  type: openapi
+  type: service
   lifecycle: "unknown"
   owner: "unknown"
   providesApis:
