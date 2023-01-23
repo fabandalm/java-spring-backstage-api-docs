@@ -1,0 +1,9 @@
+site_name: "spring-boot-rest-api"
+docs_dir: backstage-docs
+
+nav:
+  - Home: 'index.md'
+  - Summary: 'SUMMARY.md'
+
+plugins:
+  - techdocs-core
