@@ -10,4 +10,4 @@ spec:
   lifecycle: "unknown"
   owner: "unknown"
   providesApis:
-    - "Spring Boot Rest API"
+    - "spring-boot-rest-api"
