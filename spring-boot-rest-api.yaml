@@ -16,6 +16,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: experimental
-  owner: team-c
+  owner: team
   definition:
-    $text: ./openapi.yaml
+    $text: ./swagger.json
