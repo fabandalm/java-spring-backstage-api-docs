@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "address-book"
+  name: "catalog-address-book"
   namespace: "external-systems"
   annotations:
     backstage.io/techdocs-ref: dir:.
@@ -11,4 +11,4 @@ spec:
   lifecycle: "experimental"
   owner: "unknown"
   providesApis:
-    - "address-book"
+    - "address-book-api"

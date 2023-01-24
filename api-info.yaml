@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: address-book
+  name: address-book-api
   description: The address-book API
   tags:
     - store
@@ -10,7 +10,7 @@ metadata:
     - url: https://github.com/fabandalm/spring-boot-rest-api
       title: GitHub Repo
       icon: github
-    - url: https://github.com/fabandalm/spring-boot-rest-api/blob/master/openapi.yaml
+    - url: https://github.com/fabandalm/spring-boot-rest-api/blob/master/swagger.json
       title: API Spec
       icon: code
 spec:
