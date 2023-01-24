@@ -1,13 +1,21 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: "address-book"
-  description: "Maintain contact list"
-  annotations:
-    github.com/project-slug: "fabandalm/spring-boot-rest-api"
+  name: address-book
+  description: The address-book API
+  tags:
+    - store
+    - rest
+  links:
+    - url: https://github.com/fabandalm/spring-boot-rest-api
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/fabandalm/spring-boot-rest-api/blob/master/openapi.yaml
+      title: API Spec
+      icon: code
 spec:
   type: openapi
-  lifecycle: unknown
-  owner: "unknown"
+  lifecycle: experimental
+  owner: team
   definition:
     $text: ./swagger.json
