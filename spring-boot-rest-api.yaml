@@ -1,16 +1,16 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: petstore
-  description: The petstore API
+  name: address-book
+  description: The address-book API
   tags:
     - store
     - rest
   links:
-    - url: https://github.com/swagger-api/swagger-petstore
+    - url: https://github.com/fabandalm/spring-boot-rest-api
       title: GitHub Repo
       icon: github
-    - url: https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml
+    - url: https://github.com/fabandalm/spring-boot-rest-api/openapi.yaml
       title: API Spec
       icon: code
 spec:
