@@ -10,7 +10,7 @@ metadata:
     - url: https://github.com/fabandalm/spring-boot-rest-api
       title: GitHub Repo
       icon: github
-    - url: https://github.com/fabandalm/spring-boot-rest-api/openapi.yaml
+    - url: https://github.com/fabandalm/spring-boot-rest-api/blob/master/openapi.yaml
       title: API Spec
       icon: code
 spec:
