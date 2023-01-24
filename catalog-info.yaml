@@ -2,12 +2,13 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "spring-boot-rest-api"
+  namespace: "external-systems"
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: "fabandalm/spring-boot-rest-api"
 spec:
-  type: openapi
-  lifecycle: "unknown"
+  type: service
+  lifecycle: "experimental"
   owner: "unknown"
   providesApis:
     - "spring-boot-rest-api"
