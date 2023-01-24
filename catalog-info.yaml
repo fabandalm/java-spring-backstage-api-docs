@@ -11,4 +11,4 @@ spec:
   lifecycle: "experimental"
   owner: "unknown"
   providesApis:
-    - "spring-boot-rest-api"
+    - "address-book"
