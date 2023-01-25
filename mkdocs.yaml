@@ -4,9 +4,9 @@ docs_dir: backstage-docs
 repo_url: https://github.com/fabandalm/spring-boot-rest-api
 
 nav:
-  - Overview
-    - What is it? : 'overview.md'
-  - Brief Description
+  - Overview:
+    - What is it?: 'overview.md'
+  - Brief Description:
     - APIs: 'api-description.md'
 
 plugins:
