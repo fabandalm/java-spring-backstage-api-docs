@@ -4,6 +4,9 @@ metadata:
   name: "catalog-address-book"
   description: |
     catalog-rest-api manages default basic apis.
+  links:
+    - title: Documentation
+      url: https://github.com/fabandalm/spring-boot-rest-api/backstage-docs
   namespace: "external-systems"
   annotations:
     backstage.io/techdocs-ref: dir:.
