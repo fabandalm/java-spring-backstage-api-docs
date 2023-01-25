@@ -1,7 +1,7 @@
 site_name: "spring-boot-rest-api"
 site_description: "address book api's doc"
-docs_dir: backstage-docs
 repo_url: https://github.com/fabandalm/spring-boot-rest-api
+edit_uri: edit/master/backstage-docs
 
 nav:
   - Overview:
