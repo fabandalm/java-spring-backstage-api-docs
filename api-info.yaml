@@ -4,6 +4,9 @@ metadata:
   name: address-book-api
   namespace: "external-systems"
   description: The address-book API
+  tags:
+    - java
+    - go
   links:
     - url: https://github.com/fabandalm/spring-boot-rest-api
       title: GitHub Repo

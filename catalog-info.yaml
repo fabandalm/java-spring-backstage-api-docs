@@ -12,3 +12,4 @@ spec:
   owner: "unknown"
   providesApis:
     - "address-book-api"
+
