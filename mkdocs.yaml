@@ -1,6 +1,7 @@
 site_name: "SpringBoot REST API"
 site_description: "address book api's doc"
 docs_dir: backstage-docs
+repo_url: https://github.com/fabandalm/spring-boot-rest-api
 
 plugins:
   - techdocs-core
