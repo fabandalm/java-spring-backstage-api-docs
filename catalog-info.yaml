@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "catalog-address-book"
+  description: |
+    catalog-rest-api manages default basic apis.
   namespace: "external-systems"
   annotations:
     backstage.io/techdocs-ref: dir:.
