@@ -5,7 +5,7 @@ edit_uri: edit/master/backstage-docs
 
 nav:
   - Overview:
-    - What is it?: 'overview.md'
+    - What is it?: 'index.md'
   - Brief Description:
     - APIs: 'api-description.md'
 
