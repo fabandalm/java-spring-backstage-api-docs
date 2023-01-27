@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "catalog-contact"
+  name: "catalog-spring-boot"
   description: |
-    "Catalog Contact"
+    Catalog SpringBoot
   links:
     - title: Documentation
       url: https://github.com/fabandalm/spring-boot-rest-api/backstage-docs
-  namespace: "external-systems"
+  namespace: "org"
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: "fabandalm/spring-boot-rest-api"
@@ -17,5 +17,4 @@ spec:
   owner: "unknown"
   providesApis:
     - "spring-boot-rest-api"
-    - "list-contact-rest-api"
 
