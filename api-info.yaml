@@ -1,12 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: address-book-api
+  name: "spring-boot-rest-api"
   namespace: "external-systems"
-  description: The address-book API
+  description: "SpringBoot REST API"
   tags:
     - java
-    - go
   links:
     - url: https://github.com/fabandalm/spring-boot-rest-api
       title: GitHub Repo

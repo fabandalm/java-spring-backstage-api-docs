@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "catalog-address-book"
+  name: "catalog-contact"
   description: |
-    catalog-rest-api manages default basic apis.
+    "Catalog Contact"
   links:
     - title: Documentation
       url: https://github.com/fabandalm/spring-boot-rest-api/backstage-docs
@@ -16,5 +16,6 @@ spec:
   lifecycle: "experimental"
   owner: "unknown"
   providesApis:
-    - "address-book-api"
+    - "spring-boot-rest-api"
+    - "list-contact-rest-api"
 
