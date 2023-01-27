@@ -1,9 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: "spring-boot-rest-api"
-  namespace: "external-systems"
-  description: "SpringBoot REST API"
+  name: spring-boot-rest-api
+  namespace: "org"
+  description: |
+    SpringBoot REST API
   tags:
     - java
   links:
